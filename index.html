@@ -1,106 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website with Bootstrap 5</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="d-flex flex-column min-vh-100">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">My Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Website with Bootstrap 5</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>Welcome!</h1>
-                <p>This is the main content of our website. It will adapt responsively to different screen sizes thanks to Bootstrap 5's grid system.</p>
-                <button class="btn btn-primary">Learn More</button>
-            </div>
-            <div class="col-md-4">
-                <div class="bg-light p-3 border rounded">
-                    <h2>Sidebar</h2>
-                    <p>This is a sidebar area. It will adjust its width based on the screen size.</p>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
+    <body class="d-flex flex-column min-vh-100">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">My Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+        </nav>
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Welcome!</h1>
+                    <p>This is the main content of our website. It will adapt responsively to different screen sizes thanks to Bootstrap 5's grid system.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-light p-3 border rounded">
+                        <h2>Sidebar</h2>
+                        <p>This is a sidebar area. It will adjust its width based on the screen size.</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 1</h5>
+                            <p class="card-text">Short description of feature 1.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 2</h5>
+                            <p class="card-text">Short description of feature 2.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 3</h5>
+                            <p class="card-text">Short description of feature 3.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 4</h5>
+                            <p class="card-text">Short description of feature 4.</p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 1</h5>
-                        <p class="card-text">Short description of feature 1.</p>
-                        <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                </div>
+        <footer class="bg-dark text-light py-3 mt-auto site-footer">
+            <div class="container text-center">
+                <p>&copy; 2025 My Basic Website</p>
             </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 2</h5>
-                        <p class="card-text">Short description of feature 2.</p>
-                        <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 3</h5>
-                        <p class="card-text">Short description of feature 3.</p>
-                        <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Feature 4</h5>
-                        <p class="card-text">Short description of feature 4.</p>
-                        <a href="#" class="btn btn-sm btn-outline-secondary">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </footer>
 
-    <footer class="bg-dark text-light py-3 mt-auto site-footer">
-        <div class="container text-center">
-            <p>&copy; 2025 My Basic Website</p>
-        </div>
-    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-</body>
+    </body>
+
 </html>
