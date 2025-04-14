@@ -1,0 +1,10 @@
+           
+body {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Content takes up available space, footer auto-sizes */
+    min-height: 100vh;
+}
+
+.site-footer {
+    grid-row: 2;
+}
